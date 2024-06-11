@@ -5,8 +5,8 @@ Visualize Data (Professional Bicycle Racing and doping) with a Scatterplot Graph
 
 <a href="https://jkalbasri.github.io/data-visualization/" target="blank" align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="static/media/readme.png">
-    <img alt="READMEs Screenshot" src="static/media/readme.png">
+    <source media="(prefers-color-scheme: dark)" srcset="readme.png">
+    <img alt="READMEs Screenshot" src="readme.png">
   </picture>
 </a>
 
