@@ -15,8 +15,6 @@ document.addEventListener("DOMContentLoaded",()=>{
 *  @see https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest 
 */
 /**
-*  The function will send ajax request to get cyclist dataset, access cyclist data set at 
-*  {@link https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/cyclist-data.json|Datasource}  
 */
 let getCyclistData= ()=>{
   let ajaxRequest=new XMLHttpRequest();
