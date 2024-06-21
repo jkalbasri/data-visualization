@@ -102,7 +102,7 @@ const getCustomLegend=(legendSvg)=>{
            .attr("width",100)
            .attr("fill","red")
            .style("left",`0`)
-           .style("top", `280px`)
+           .style("top", `180px`)
            .html(`<div style="display:flex;font-size:13px;">
                    <div style="background-color:#5790C2;width:20px;height:20px;">
                    </div>
