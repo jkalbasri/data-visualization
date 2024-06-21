@@ -60,7 +60,7 @@ let loadDopingChart=(dopingDataset)=>{
                            .html(`${d.Name}: ${d.Nationality}<br>
                                   Year: ${d.Year} Time: ${d.Time}<br></br>${d.Doping}`)
                            .style("left",`${20+xScale(dopingDataset,svgWidth,padding)(new Date(d.Year))}px`)
-                           .style("top", `${10+yScale(parsedData,svgHeight,padding)(d3.timeParse(specifier)(d.Time))}px`);
+                           .style("top", `${40+yScale(parsedData,svgHeight,padding)(d3.timeParse(specifier)(d.Time))}px`);
                   })
                   .on("mouseout",(d,i)=>{
                     tooltip.style("opacity",0);
